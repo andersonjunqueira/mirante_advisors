@@ -1,0 +1,57 @@
+# Arquivos e diretórios gerados pelo ambiente virtual
+venv/
+.env
+*.env
+
+# Configurações do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs e dados temporários
+*.log
+*.sqlite3
+*.db
+*.test.db
+instance/
+*.migrations/
+
+# Arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.spec
+
+# Arquivos do Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos gerados por ferramentas de cobertura de código
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Arquivos de ferramentas de lint e testes
+*.pytest_cache/
+.flake8
+.mypy_cache/
+.pytest_cache/
+
+# Outros
+*.bak
