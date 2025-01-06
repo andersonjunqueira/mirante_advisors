@@ -81,6 +81,8 @@ SELECT * FROM analysis_history;
 
 # Observações
 
+* A tabela no banco de dados será criada automaticamente contando que o banco esteja rodando e o usuário padrão do banco seja postgres / yourpassword
+
 * O projeto inclui informações sensíveis 'hardcoded' nos arquivos como senha do usuário do banco apenas por ser um desafio técnico e não uma aplicação real. Essas informações devem ser guardadas de forma mais segura (um exemplo seria usar o recurso de secrets do kubernetes ao rodar esse agente em um container)
 
 * Os testes unitários incluídos com esse projeto devem ser considerados como testes de integração uma vez que os testes unitários deveriam simular o acesso a recursos da infraestrutura como banco de dados.
